@@ -24,7 +24,7 @@ section{
 .main-box{
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 270px;
     margin-left: 30px;
 }
 .top-box{
@@ -60,3 +60,48 @@ section{
     margin-left: 751px;
     margin-top: -80px;
 }
+p{
+    color:rgb(151, 150, 150);
+    font-family: regular-font;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: bold;
+    padding-left: 20px;
+}  
+h4{
+    font-family: regular-font;
+    font-size: 20px;
+    padding-left:20px;
+    color: rgb(63, 63, 63);
+}
+.header{
+    align-items: center;
+    justify-content: center;
+}
+.title-1{
+    font-family: thin-font;
+    font-size: 41px;
+    position: absolute;
+    left: 677px;
+    top: 15px;
+}
+.title-2{
+    font-family: regular-font;
+    font-size: 41px;
+    position: absolute;
+    left: 678px;
+    top: 80px;
+}
+.title-3{
+    font-family: thin-font;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    left: 700px;
+    top: 170px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 60px;
+    height: auto;
+    
+}  
