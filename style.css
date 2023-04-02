@@ -140,12 +140,13 @@ h4{
 .attribution {
     font-size: 12px;
     /* font-weight: bold; */
-    padding: 30px;
+    padding: 0;
     position: absolute;
     top: 870px;
-    left: 752px;
+    left: 773px;
     font-family: regular-font;
     color: rgb(3, 3, 3);
+    
     
     
 }
