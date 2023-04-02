@@ -1,0 +1,62 @@
+@font-face {
+    font-family: thin-font;
+    src: url(./assets/font/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: regular-font;
+    src: url(./assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: light-font;
+    src: url(./assets/font/Poppins-ExtraLight.ttf);
+}
+
+body{
+    background-color: dimgrey;
+    justify-self: center; 
+    align-items: center;
+}
+section{
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.top-box{
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    border-top: aqua 4px solid;
+    margin-left: 751px;
+}    
+.left-box{
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    border-top: rgb(199, 16, 16) 4px solid;
+    margin:-100px 0 0 430px;
+}
+.right-box{
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    border-top: rgb(33, 6, 155) 4px solid;
+    margin:-205px 0 0 1075px;
+}
+.buttom-box{
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    border-top: rgb(253, 124, 3) 4px solid;
+    margin-left: 751px;
+    margin-top: -80px;
+}
