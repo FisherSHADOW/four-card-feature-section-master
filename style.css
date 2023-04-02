@@ -11,9 +11,11 @@
     src: url(./assets/font/Poppins-ExtraLight.ttf);
 }
 body{
-    background-color: dimgrey;
+    background-color: rgb(255, 255, 255);
     justify-self: center; 
     align-items: center;
+    min-height: 100vh;
+    display: flex;
 }
 section{
     height: 90vh;
@@ -27,44 +29,47 @@ section{
     margin-left: 30px;
 }
 .top-box{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     border-radius: 7px;
-    border-top: aqua 4px solid;
+    border-top: hsl(180, 62%, 55%) 4px solid;
     margin-left: 751px;
+    box-shadow: 0px  5px 12px -5px;
 }    
 .left-box{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     border-radius: 7px;
-    border-top: rgb(199, 16, 16) 4px solid;
+    border-top: hsl(0, 78%, 62%) 4px solid;
     margin:-100px 0 0 430px;
+    box-shadow: 0px  5px 12px -5px;
 }
 .right-box{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     border-radius: 7px;
-    border-top: rgb(33, 6, 155) 4px solid;
+    border-top: 4px solid hsl(212, 86%, 64%);
     margin:-205px 0 0 1075px;
+    box-shadow: 0px  5px 12px -5px;
 }
 .buttom-box{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 200px;
     border-radius: 7px;
-    border-top: rgb(253, 124, 3) 4px solid;
+    border-top: hsl(34, 97%, 64%) 4px solid;
     margin-left: 751px;
     margin-top: -80px;
+    box-shadow: 0px  5px 12px -5px;
 }
 p{
     color:rgb(151, 150, 150);
     font-family: regular-font;
     font-size: 12px;
     line-height: 23px;
-    font-weight: bold;
     padding-left: 20px;
 }  
 h4{
@@ -83,6 +88,7 @@ h4{
     position: absolute;
     left: 677px;
     top: 15px;
+    color: hsl(229, 6%, 66%);
 }
 .title-2{
     font-family: regular-font;
@@ -90,6 +96,7 @@ h4{
     position: absolute;
     left: 678px;
     top: 80px;
+    color:hsl(234, 12%, 34%);
 }
 .title-3{
     font-family: thin-font;
@@ -98,10 +105,10 @@ h4{
     text-align: center;
     left: 700px;
     top: 170px;
-    color: aliceblue;
     font-weight: bold;
     width: 60px;
     height: auto;
+    color: hsl(234, 12%, 34%);
 }
 .img-top{
     width: 45px;
@@ -125,8 +132,20 @@ h4{
 }
 .img-bottom{
     width: 45px;
-    height: auto;
     position: absolute;
     margin-left: 230px;
-    bottom: 265px; 
+    bottom: 260px; 
+}
+/* footer attribue */
+.attribution {
+    font-size: 12px;
+    /* font-weight: bold; */
+    padding: 30px;
+    position: absolute;
+    top: 870px;
+    left: 752px;
+    font-family: regular-font;
+    color: rgb(3, 3, 3);
+    
+    
 }
