@@ -12,11 +12,9 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    justify-self: center; 
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
     width: 1440px;
+    min-height: 100vh;
+
 }
 section{
     height: 90vh;
@@ -135,7 +133,7 @@ h4{
 }
 .img-bottom{
     width: 45px;
-    position: absolute;
+    height: auto;
     margin-left: 230px;
     bottom: 210px; 
 }
