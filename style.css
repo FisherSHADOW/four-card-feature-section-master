@@ -10,7 +10,6 @@
     font-family: light-font;
     src: url(./assets/font/Poppins-ExtraLight.ttf);
 }
-
 body{
     background-color: dimgrey;
     justify-self: center; 
@@ -103,5 +102,31 @@ h4{
     font-weight: bold;
     width: 60px;
     height: auto;
+}
+.img-top{
+    width: 45px;
+    height: auto;
+    padding-left: 230px;
+    margin-top: -5px;
+
+}
+.img-left{
+    width: 45px;
+    height: auto;
+    padding-left: 230px;
+    margin-top: -5px;
+}
+.img-right{
+    width: 45px;
+    height: auto;
+    padding-left: 230px;
+    margin-top: -5px;
     
-}  
+}
+.img-bottom{
+    width: 45px;
+    height: auto;
+    position: absolute;
+    margin-left: 230px;
+    bottom: 265px; 
+}
