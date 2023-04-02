@@ -16,6 +16,7 @@ body{
     align-items: center;
     min-height: 100vh;
     display: flex;
+    width: 1440px;
 }
 section{
     height: 90vh;
