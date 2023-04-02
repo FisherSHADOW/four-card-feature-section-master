@@ -88,7 +88,9 @@ h4{
     position: absolute;
     left: 677px;
     top: 15px;
-    color: hsl(229, 6%, 66%);
+    color: hsl(0, 0%, 65%);
+    font-weight: bold;
+
 }
 .title-2{
     font-family: regular-font;
@@ -134,19 +136,17 @@ h4{
     width: 45px;
     position: absolute;
     margin-left: 230px;
-    bottom: 260px; 
+    bottom: 210px; 
 }
+
 /* footer attribue */
+
 .attribution {
     font-size: 12px;
-    /* font-weight: bold; */
     padding: 0;
     position: absolute;
     top: 870px;
     left: 773px;
     font-family: regular-font;
-    color: rgb(3, 3, 3);
-    
-    
-    
+    color: rgb(3, 3, 3); 
 }
